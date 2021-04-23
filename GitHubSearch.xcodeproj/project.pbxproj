@@ -99,13 +99,14 @@
 		60DD33142632F23D00AB96DC /* GitHubSearch */ = {
 			isa = PBXGroup;
 			children = (
-				60DD33152632F23D00AB96DC /* AppDelegate.swift */,
-				60DD33172632F23D00AB96DC /* SceneDelegate.swift */,
+				60DD33482632F25500AB96DC /* Application */,
+				60DD334C2632F2A400AB96DC /* Configurations */,
+				60DD334B2632F28100AB96DC /* Resources */,
+				60DD33492632F26100AB96DC /* Presentation */,
+				60DD334A2632F27100AB96DC /* Domain */,
+				60DD334D2632F2C600AB96DC /* Networking */,
 				60DD33192632F23D00AB96DC /* ViewController.swift */,
 				60DD331B2632F23D00AB96DC /* Main.storyboard */,
-				60DD331E2632F23E00AB96DC /* Assets.xcassets */,
-				60DD33202632F23E00AB96DC /* LaunchScreen.storyboard */,
-				60DD33232632F23E00AB96DC /* Info.plist */,
 			);
 			path = GitHubSearch;
 			sourceTree = "<group>";
@@ -126,6 +127,53 @@
 				60DD33392632F23F00AB96DC /* Info.plist */,
 			);
 			path = GitHubSearchUITests;
+			sourceTree = "<group>";
+		};
+		60DD33482632F25500AB96DC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				60DD33152632F23D00AB96DC /* AppDelegate.swift */,
+				60DD33172632F23D00AB96DC /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		60DD33492632F26100AB96DC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		60DD334A2632F27100AB96DC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		60DD334B2632F28100AB96DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60DD331E2632F23E00AB96DC /* Assets.xcassets */,
+				60DD33202632F23E00AB96DC /* LaunchScreen.storyboard */,
+				60DD33232632F23E00AB96DC /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60DD334C2632F2A400AB96DC /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		60DD334D2632F2C600AB96DC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,7 +486,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2C86JD592M;
-				INFOPLIST_FILE = GitHubSearch/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GitHubSearch/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +505,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2C86JD592M;
-				INFOPLIST_FILE = GitHubSearch/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GitHubSearch/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
